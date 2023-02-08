@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(73, 179, 73);
+}
+
+#wrapper #circle {
+    position: relative;
+    background-color: aliceblue;
+    margin: auto;
+    top: 20rem;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+
+#innerCricle {
+    position: absolute;
+    top: 13px;
+    left: 13px;
+    background-color: red;
+    height: 75px;
+    width: 75px;
+    border-radius: 50%;
+}
+
+
+.petals {
+    position: absolute;
+    display: inline-block;
+    margin: auto;
+    top: 0;
+    left: 0;
+    height: 175px;
+    width: 65px;
+    border-radius: 50%;
+    background-color: black;
+    border: 2px solid #fff;
+    box-shadow: 0px 0px 15px 5px blue;
+}
+
+.petal1 {
+    position: absolute;
+    transform: rotate(0deg);
+    top: -175px;
+    left: 20px;
+}
+
+.petal2 {
+    position: absolute;
+    transform: rotate(45deg);
+    left: 120px;
+    top: -135px;
+}
+
+.petal3 {
+    position: absolute;
+    transform: rotate(90deg);
+    left: 160px;
+    top: -30px;
+}
+
+.petal4 {
+    position: absolute;
+    transform: rotate(130deg);
+    bottom: -200px;
+    right: -200px;
+}
+
+.petal5 {
+    position: absolute;
+    transform: rotate(180deg);
+    bottom: -285px;
+    right: 0px;
+}
+
+.petal6 {
+    position: absolute;
+    transform: rotate(228deg);
+    bottom: -210px;
+    left: -85px;
+}
+
+.petal7 {
+    position: absolute;
+    transform: rotate(270deg);
+    left: -125px;
+    top: -30px;
+}
+
+.petal8 {
+    position: absolute;
+    transform: rotate(317deg);
+    top: -135px;
+    left: -83px;
+}
