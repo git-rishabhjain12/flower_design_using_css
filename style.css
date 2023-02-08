@@ -44,56 +44,48 @@ body {
 }
 
 .petal1 {
-    position: absolute;
     transform: rotate(0deg);
     top: -175px;
     left: 20px;
 }
 
 .petal2 {
-    position: absolute;
     transform: rotate(45deg);
     left: 120px;
     top: -135px;
 }
 
 .petal3 {
-    position: absolute;
     transform: rotate(90deg);
     left: 160px;
     top: -30px;
 }
 
 .petal4 {
-    position: absolute;
     transform: rotate(130deg);
     bottom: -200px;
     right: -200px;
 }
 
 .petal5 {
-    position: absolute;
     transform: rotate(180deg);
     bottom: -285px;
     right: 0px;
 }
 
 .petal6 {
-    position: absolute;
     transform: rotate(228deg);
     bottom: -210px;
     left: -85px;
 }
 
 .petal7 {
-    position: absolute;
     transform: rotate(270deg);
     left: -125px;
     top: -30px;
 }
 
 .petal8 {
-    position: absolute;
     transform: rotate(317deg);
     top: -135px;
     left: -83px;
